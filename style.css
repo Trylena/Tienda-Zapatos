@@ -325,12 +325,12 @@ td, th {
   
 .botones {
     text-align: center;
-    margin-top: 3em;
+    margin-top: 1em;
 }
   
 .botones a {
     color: #000000;
-    font-size: 5em;
+    font-size: 3em;
     display: inline-block;
     margin: 0 4%;
     margin-bottom: 1em;
