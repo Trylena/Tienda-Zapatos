@@ -129,7 +129,7 @@ nav a:hover {
 }
 
 .card::after {
-  content: "Add to Cart";
+  content: "Agregar al carrito";
   padding-top: 1.25em;
   padding-left: 1.25em;
   position: absolute;
@@ -174,7 +174,7 @@ nav a:hover {
 }
 
 .card:active::after {
-  content: "Added !";
+  content: "Agregado !";
   height: 3.125em;
   background-color: #F4DF90;
 }
