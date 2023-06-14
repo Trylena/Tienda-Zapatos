@@ -71,7 +71,7 @@ function transitionEndHandler() {
     }, 0);
   } else if (currentIndex === 0) {
     imagesContainer.style.transition = 'none';
-    slideTo(images.length - 2);
+    slideTo(images.length - 3);
     setTimeout(() => {
       imagesContainer.style.transition = 'transform 0.4s ease-in-out';
     }, 0);
@@ -83,7 +83,7 @@ function transitionEndHandler() {
 imagesContainer.addEventListener('transitionend', transitionEndHandler);
 
 // Auto slide every 3 seconds
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 4000);
 
 
 
